@@ -44,11 +44,15 @@
             <div class="col">
                 <div class="logo-box">
                     <?php if ($this->options->logoUrl): ?>
-                        <img class="site-logo" title="<?php $this->options->description(); ?>"
+                        <a href="https://www.liups.site/">
+                            <img class="site-logo" title="<?php $this->options->description(); ?>"
                              src="<?php $this->options->logoUrl(); ?>" alt="logo">
+                        </a>
                     <?php else: ?>
-                        <img class="site-logo" title="<?php $this->options->description(); ?>"
+                        <a href="https://www.liups.site/">
+                            <img class="site-logo" title="<?php $this->options->description(); ?>"
                              src="<?php utils::indexHome('assets/img/logo.png'); ?>" alt="logo">
+                        </a>
                     <?php endif; ?>
                     <b class="logo-shine"></b>
                 </div>
