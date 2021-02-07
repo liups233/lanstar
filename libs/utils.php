@@ -424,15 +424,15 @@ class utils
                 } else {
                     $mmail = $email . '@qq.com';
                     $email = md5($mmail);
-                    echo "//cdn.v2ex.com/gravatar/" . $email . "?";
+                    echo "//sdn.geekzu.org/avatar/" . $email . "?";
                 }
 
             } else {
                 $email = md5($email);
-                echo "//cdn.v2ex.com/gravatar/" . $email . "?";
+                echo "//sdn.geekzu.org/avatar/" . $email . "?";
             }
         } else {
-            echo "//cdn.v2ex.com/gravatar/null?";
+            echo "//sdn.geekzu.org/avatar/null?";
         }
     }
 
